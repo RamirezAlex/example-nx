@@ -11,3 +11,9 @@ describe('example', () => {
     getGreeting().contains('Welcome example');
   });
 });
+
+describe('My First Test', () => {
+  it('Does not do much!', () => {
+    expect(true).to.equal(true);
+  });
+});

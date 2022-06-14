@@ -5,7 +5,9 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "cypress:open": "nx run example-e2e:e2e --headed",
+    "cypress": "nx run example-e2e:e2e"
   },
   "private": true,
   "dependencies": {
